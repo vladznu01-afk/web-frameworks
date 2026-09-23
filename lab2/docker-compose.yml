@@ -1,0 +1,6 @@
+services:
+  vue-lab2:
+    build: .
+    ports:
+      - "8080:80"
+    container_name: vue-lab2-instance
