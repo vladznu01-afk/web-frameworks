@@ -1,0 +1,41 @@
+- main:
+  - paragraph: СУЧАСНІ КАРКАСИ WEB-ДОДАТКІВ / 04
+  - heading "Вкладки та локальний контекст" [level=1]
+  - paragraph: Прохович Владислав Павлович · група 7.F2.25-2
+  - paragraph: macOS · Node.js 26.8.2 · Vue 3.5 · Vite 7 · Tailwind CSS 3.4.17 + Sass
+  - heading "01 / Underline · панелі через слоти" [level=2]
+  - tablist "Основні вкладки":
+    - tab "Огляд" [selected]
+    - tab "Вимоги"
+    - tab "Середовище"
+  - tabpanel "Огляд":
+    - heading "Нотатки до роботи" [level=3]
+    - text: Нотатка
+    - textbox "Нотатка":
+      - /placeholder: Введіть текст і перемкніть вкладку
+    - paragraph: "Активацій: 1 · Символів: 0"
+  - heading "02 / Pills · динамічні компоненти" [level=2]
+  - tablist "Динамічні вкладки":
+    - tab "Нотатка" [selected]
+    - tab "Перевірка"
+    - tab "Середовище"
+  - tabpanel "Нотатка":
+    - heading "Динамічна панель" [level=3]
+    - text: Нотатка
+    - textbox "Нотатка":
+      - /placeholder: Введіть текст і перемкніть вкладку
+    - paragraph: "Активацій: 1 · Символів: 0"
+  - heading "03 / Boxed · вимкнені та умовні вкладки" [level=2]
+  - tablist "Вкладки середовища":
+    - tab "Середовище" [selected]
+    - tab "Недоступно" [disabled]
+    - tab "Нотатка"
+  - tabpanel "Середовище":
+    - heading "Середовище" [level=3]
+    - paragraph: Vue 3.5 · Vite 7 · Tailwind 3.4.17 · Sass · macOS
+    - paragraph: Node.js 26.8.2 · npm · Google Chrome
+    - button "Відкрити ModalDialog"
+    - paragraph: "Відкриттів у цьому екземплярі: 0"
+  - checkbox "Показати додаткову вкладку (v-if)" [checked]
+  - text: Показати додаткову вкладку (v-if)
+  - generic: "Клавіатура: ← → Home End · стан кожної панелі зберігається в KeepAlive."

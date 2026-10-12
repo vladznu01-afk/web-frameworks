@@ -1,0 +1,13 @@
+
+> lab4-tabs-design@1.0.0 test
+> vitest run --environment jsdom
+
+
+ RUN  v5.0.3 /Users/vladislavprokhovich/IdeaProjects/r/webframeworks/lab4
+
+
+ Test Files  1 passed (1)
+      Tests  4 passed (4)
+   Start at  20:36:33
+   Duration  577ms (transform 38%, environment 37%, tests 19%, import 6%)
+

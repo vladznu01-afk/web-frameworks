@@ -1,0 +1,13 @@
+
+> test
+> vitest run --environment jsdom
+
+
+ RUN  v5.0.3 /Users/vladislavprokhovich/IdeaProjects/r/webframeworks/lab5
+
+
+ Test Files  1 passed (1)
+      Tests  7 passed (7)
+   Start at  20:36:36
+   Duration  341ms (environment 59%, transform 17%, tests 14%, import 9%, worker 1%)
+

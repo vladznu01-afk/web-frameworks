@@ -1,0 +1,5 @@
+Chrome DevTools Protocol network capture, local run on http://localhost:5174/
+GET https://dummyjson.com/products/search?limit=12&skip=0&delay=1500&q=p [200]
+GET https://dummyjson.com/products/search?limit=12&skip=0&delay=1500&q=ph [net::ERR_ABORTED]
+GET https://dummyjson.com/products/search?limit=12&skip=0&delay=1500&q=phone [200]
+Observation: rapid input changes canceled the intermediate ph request; the final phone query completed and populated the results. Captured 2026-10-12.
